@@ -2,31 +2,31 @@ import java.lang.System;
 import java.io.*;
 
 class Lexer {
-	Yylex tokenizer;
-	public  Lexer(String fileName)
-	{
-	  try
-	  {
-	  tokenizer=new Yylex(new BufferedReader(new FileReader(fileName)));
-	  }
-	  catch(Exception e)
-	  {
+    Yylex tokenizer;
+    public  Lexer(String fileName)
+    {
+      try
+      {
+      tokenizer=new Yylex(new BufferedReader(new FileReader(fileName)));
+      }
+      catch(Exception e)
+      {
 
-	  }
-	}
-	public Token nextToken()
-	{
-		Token next=null;
-		try
-		{
-		 next=  tokenizer.getToken();
-		}
-		catch(Exception e)
-		{
-		}
-		return next;
-	}
-	}
+      }
+    }
+    public Token nextToken()
+    {
+        Token next=null;
+        try
+        {
+         next=  tokenizer.getToken();
+        }
+        catch(Exception e)
+        {
+        }
+        return next;
+    }
+    }
 
 
 %%
@@ -39,10 +39,12 @@ class Lexer {
 
 
 %{
-	int mathmode = 0;
-	int equmode = 0;
-	int no_of_items = 0;
-	//initialize  variables to be used by class
+    int mathmode = 0;
+    int equmode = 0;
+    int nItems = 0;
+    boolean insideItem = false;
+    String itemText = "";
+    //initialize  variables to be used by class
 %}
 
 
@@ -68,15 +70,15 @@ BEGINITEMIZE=(\\begin\{itemize\})
 ONEITEM=(\\item)
 ENDITEMIZE=(\\end\{itemize\})
 MATH=(\$)
-NUMBER=([0-9])
-VARIABLE=([a-z])
+NUMBER=([0-9])+
+VARIABLE=([a-z]([a-z_]|[0-9])*)
 OPERATOR=([+-*/=^])
 BEGINEQU=(\\begin\{equation\})
 ENDEQU=(\\end\{equation\})
 LABEL=(\\label\{(.)+\})
 ERRORLINE=(\\errorcoming)
 FUNCTION=(f)
-BODY=[^\{\n%\\$]+
+BODY=^[^\{\n%\\$]+
 
 
 %%
@@ -93,19 +95,40 @@ BODY=[^\{\n%\\$]+
 <YYINITIAL> {PACKAGE} { return (new Token(Token.PACKAGE,yytext()));}
 <YYINITIAL> {COMMENT} {}
 <YYINITIAL> {NEWLINE} {return (new Token(Token.NEWLINE,yytext()));}
-<YYINITIAL> {BEGINITEMIZE} {return (new Token(Token.BEGIN,yytext()));}
-<YYINITIAL> {ONEITEM} {no_of_items++; return (new Token(Token.ITEM,yytext()));}
-<YYINITIAL> {ENDITEMIZE} { if(no_of_items > 0)
-													 {return (new Token(Token.END,yytext()));}
-													else {
-														return new Token(Token.ERROR, "Line: "+yyline + " Item list with missing item");
-													}
-
-												  }
-<YYINITIAL> \n {}
+<YYINITIAL> {BEGINITEMIZE} {
+  itemText = "";
+  nItems = 0;
+  return (new Token(Token.BEGIN,yytext()));
+}
+<YYINITIAL> {ONEITEM} {
+  insideItem = true;
+  nItems++;
+  return (new Token(Token.ITEM,yytext()));
+}
+<YYINITIAL> {ENDITEMIZE} {return (new Token(Token.END,yytext()));}
+<YYINITIAL> \n {
+  if (insideItem) {
+    Token t = new Token(Token.BODY, itemText);
+    itemText = "";
+    insideItem = false;
+    return t;
+  }
+}
 <YYINITIAL> {MATH} { mathmode++; if(mathmode % 2 == 1) { return (new Token(Token.MATHMODE,yytext()));}}
-<YYINITIAL> {NUMBER} { return (new Token(Token.NM,yytext()));}
-<YYINITIAL> {VARIABLE} {return (new Token(Token.VAR,yytext()));}
+<YYINITIAL> {NUMBER} {
+  if (insideItem && mathmode % 2 == 0 && equmode % 2 == 0) {
+    itemText += yytext() + " ";
+  } else {
+    return (new Token(Token.NM,yytext()));
+  }
+}
+<YYINITIAL> {VARIABLE} {
+  if (insideItem && mathmode % 2 == 0 && equmode % 2 == 0) {
+    itemText += yytext() + " ";
+  } else {
+    return (new Token(Token.VAR,yytext()));
+  }
+}
 <YYINITIAL> {OPERATOR} {return (new Token(Token.OPERATOR,yytext()));}
 <YYINITIAL> {BEGINEQU} { equmode++; {return (new Token(Token.BEGIN,yytext()));}}
 <YYINITIAL> {LABEL} { return (new Token(Token.LABEL,yytext()));}
@@ -124,5 +147,5 @@ BODY=[^\{\n%\\$]+
   return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
 }
 <YYINITIAL> . {
-  return new Token(Token.ERROR, "Invalid input: " + yytext());
+  //return new Token(Token.ERROR, "Invalid input: " + yytext());
 }
