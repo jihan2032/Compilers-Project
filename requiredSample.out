@@ -1,0 +1,38 @@
+DOCUMENT CLASS : \documentclass{scrartcl}
+NEWLINE
+PACKAGE : \usepackage[utf8]{inputenc}
+NEWLINE
+NEWLINE
+NEWLINE
+NEWLINE
+BEGIN DOCUMENT : \begin{document}
+NEWLINE
+TITLE : \title
+TEXT : Compilers Lab, Spring 2016
+NEWLINE
+SUBTITLE : \subtitle
+TEXT : Lab 1 Task
+NEWLINE
+DATE: \date
+TEXT : January 2016
+NEWLINE
+MAKE TITLE : \maketitle
+NEWLINE
+NEWLINE
+SECTION : \section
+TEXT : Introduction
+NEWLINE
+BODY : The Advanced computer lab course 
+TEXTBF : \textbf
+TEXT : CSEN 1002
+BODY :  provides a practical introduction to the implementation of compilers. The course is carried out as one programming project divided into two milestones. Each milestone will consist of one component of the compiler that will be built during the course. At the end of the course, the implemented compiler will be capable of generating executable code for Latex language.
+NEWLINE
+NEWLINE
+NEWLINE
+NEWLINE
+SECTION : \section
+TEXT : Objectives
+NEWLINE
+BODY : By the end of his course, students will know how to implement lexical, syntactic and semantic analyzers, manually and using automation tools such as JLex and CUP. They will also have learnt or to implement a full compiler for the Latex language.
+NEWLINE
+END DOCUMENT: \end{document}
