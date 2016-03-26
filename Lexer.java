@@ -262,169 +262,203 @@ class Yylex {
 		/* 23 */ YY_NO_ANCHOR,
 		/* 24 */ YY_NO_ANCHOR,
 		/* 25 */ YY_NO_ANCHOR,
-		/* 26 */ YY_NOT_ACCEPT,
-		/* 27 */ YY_NO_ANCHOR,
-		/* 28 */ YY_NOT_ACCEPT,
-		/* 29 */ YY_NOT_ACCEPT,
-		/* 30 */ YY_NOT_ACCEPT,
-		/* 31 */ YY_NOT_ACCEPT,
-		/* 32 */ YY_NOT_ACCEPT,
-		/* 33 */ YY_NOT_ACCEPT,
-		/* 34 */ YY_NOT_ACCEPT,
-		/* 35 */ YY_NOT_ACCEPT,
-		/* 36 */ YY_NOT_ACCEPT,
-		/* 37 */ YY_NOT_ACCEPT,
-		/* 38 */ YY_NOT_ACCEPT,
-		/* 39 */ YY_NOT_ACCEPT,
-		/* 40 */ YY_NOT_ACCEPT,
-		/* 41 */ YY_NOT_ACCEPT,
-		/* 42 */ YY_NOT_ACCEPT,
-		/* 43 */ YY_NOT_ACCEPT,
-		/* 44 */ YY_NOT_ACCEPT,
-		/* 45 */ YY_NOT_ACCEPT,
-		/* 46 */ YY_NOT_ACCEPT,
-		/* 47 */ YY_NOT_ACCEPT,
-		/* 48 */ YY_NOT_ACCEPT,
-		/* 49 */ YY_NOT_ACCEPT,
-		/* 50 */ YY_NOT_ACCEPT,
-		/* 51 */ YY_NOT_ACCEPT,
-		/* 52 */ YY_NOT_ACCEPT,
-		/* 53 */ YY_NOT_ACCEPT,
-		/* 54 */ YY_NOT_ACCEPT,
-		/* 55 */ YY_NOT_ACCEPT,
-		/* 56 */ YY_NOT_ACCEPT,
-		/* 57 */ YY_NOT_ACCEPT,
-		/* 58 */ YY_NOT_ACCEPT,
-		/* 59 */ YY_NOT_ACCEPT,
-		/* 60 */ YY_NOT_ACCEPT,
-		/* 61 */ YY_NOT_ACCEPT,
-		/* 62 */ YY_NOT_ACCEPT,
-		/* 63 */ YY_NOT_ACCEPT,
-		/* 64 */ YY_NOT_ACCEPT,
-		/* 65 */ YY_NOT_ACCEPT,
-		/* 66 */ YY_NOT_ACCEPT,
-		/* 67 */ YY_NOT_ACCEPT,
-		/* 68 */ YY_NOT_ACCEPT,
-		/* 69 */ YY_NOT_ACCEPT,
-		/* 70 */ YY_NOT_ACCEPT,
-		/* 71 */ YY_NOT_ACCEPT,
-		/* 72 */ YY_NOT_ACCEPT,
-		/* 73 */ YY_NOT_ACCEPT,
-		/* 74 */ YY_NOT_ACCEPT,
-		/* 75 */ YY_NOT_ACCEPT,
-		/* 76 */ YY_NOT_ACCEPT,
-		/* 77 */ YY_NOT_ACCEPT,
-		/* 78 */ YY_NOT_ACCEPT,
-		/* 79 */ YY_NOT_ACCEPT,
-		/* 80 */ YY_NOT_ACCEPT,
-		/* 81 */ YY_NOT_ACCEPT,
-		/* 82 */ YY_NOT_ACCEPT,
-		/* 83 */ YY_NOT_ACCEPT,
-		/* 84 */ YY_NOT_ACCEPT,
-		/* 85 */ YY_NOT_ACCEPT,
-		/* 86 */ YY_NOT_ACCEPT,
-		/* 87 */ YY_NOT_ACCEPT,
-		/* 88 */ YY_NOT_ACCEPT,
-		/* 89 */ YY_NOT_ACCEPT,
-		/* 90 */ YY_NOT_ACCEPT,
-		/* 91 */ YY_NOT_ACCEPT,
-		/* 92 */ YY_NOT_ACCEPT,
-		/* 93 */ YY_NOT_ACCEPT,
-		/* 94 */ YY_NOT_ACCEPT,
-		/* 95 */ YY_NOT_ACCEPT,
-		/* 96 */ YY_NOT_ACCEPT,
-		/* 97 */ YY_NOT_ACCEPT,
-		/* 98 */ YY_NOT_ACCEPT,
-		/* 99 */ YY_NOT_ACCEPT,
-		/* 100 */ YY_NOT_ACCEPT,
-		/* 101 */ YY_NOT_ACCEPT,
-		/* 102 */ YY_NOT_ACCEPT,
-		/* 103 */ YY_NOT_ACCEPT,
-		/* 104 */ YY_NOT_ACCEPT,
-		/* 105 */ YY_NOT_ACCEPT,
-		/* 106 */ YY_NOT_ACCEPT,
-		/* 107 */ YY_NOT_ACCEPT,
-		/* 108 */ YY_NOT_ACCEPT,
-		/* 109 */ YY_NOT_ACCEPT,
-		/* 110 */ YY_NOT_ACCEPT,
-		/* 111 */ YY_NOT_ACCEPT,
-		/* 112 */ YY_NOT_ACCEPT,
-		/* 113 */ YY_NOT_ACCEPT,
-		/* 114 */ YY_NOT_ACCEPT,
-		/* 115 */ YY_NOT_ACCEPT,
-		/* 116 */ YY_NOT_ACCEPT,
-		/* 117 */ YY_NOT_ACCEPT,
-		/* 118 */ YY_NOT_ACCEPT,
-		/* 119 */ YY_NOT_ACCEPT,
-		/* 120 */ YY_NOT_ACCEPT,
-		/* 121 */ YY_NOT_ACCEPT,
-		/* 122 */ YY_NOT_ACCEPT,
-		/* 123 */ YY_NOT_ACCEPT,
-		/* 124 */ YY_NOT_ACCEPT,
-		/* 125 */ YY_NOT_ACCEPT,
-		/* 126 */ YY_NOT_ACCEPT,
-		/* 127 */ YY_NOT_ACCEPT,
-		/* 128 */ YY_NOT_ACCEPT,
-		/* 129 */ YY_NOT_ACCEPT,
-		/* 130 */ YY_NOT_ACCEPT,
-		/* 131 */ YY_NOT_ACCEPT,
-		/* 132 */ YY_NOT_ACCEPT,
-		/* 133 */ YY_NOT_ACCEPT,
-		/* 134 */ YY_NOT_ACCEPT,
-		/* 135 */ YY_NOT_ACCEPT,
-		/* 136 */ YY_NOT_ACCEPT,
-		/* 137 */ YY_NOT_ACCEPT,
-		/* 138 */ YY_NOT_ACCEPT,
-		/* 139 */ YY_NOT_ACCEPT,
-		/* 140 */ YY_NOT_ACCEPT,
-		/* 141 */ YY_NOT_ACCEPT,
-		/* 142 */ YY_NOT_ACCEPT,
-		/* 143 */ YY_NOT_ACCEPT,
-		/* 144 */ YY_NOT_ACCEPT,
-		/* 145 */ YY_NOT_ACCEPT,
-		/* 146 */ YY_NOT_ACCEPT,
-		/* 147 */ YY_NOT_ACCEPT,
-		/* 148 */ YY_NOT_ACCEPT,
-		/* 149 */ YY_NOT_ACCEPT,
-		/* 150 */ YY_NOT_ACCEPT,
-		/* 151 */ YY_NOT_ACCEPT,
-		/* 152 */ YY_NOT_ACCEPT,
-		/* 153 */ YY_NOT_ACCEPT
+		/* 26 */ YY_NO_ANCHOR,
+		/* 27 */ YY_NOT_ACCEPT,
+		/* 28 */ YY_NO_ANCHOR,
+		/* 29 */ YY_NO_ANCHOR,
+		/* 30 */ YY_NO_ANCHOR,
+		/* 31 */ YY_NO_ANCHOR,
+		/* 32 */ YY_NO_ANCHOR,
+		/* 33 */ YY_NO_ANCHOR,
+		/* 34 */ YY_NO_ANCHOR,
+		/* 35 */ YY_NO_ANCHOR,
+		/* 36 */ YY_NO_ANCHOR,
+		/* 37 */ YY_NO_ANCHOR,
+		/* 38 */ YY_NO_ANCHOR,
+		/* 39 */ YY_NO_ANCHOR,
+		/* 40 */ YY_NO_ANCHOR,
+		/* 41 */ YY_NO_ANCHOR,
+		/* 42 */ YY_NO_ANCHOR,
+		/* 43 */ YY_NO_ANCHOR,
+		/* 44 */ YY_NO_ANCHOR,
+		/* 45 */ YY_NO_ANCHOR,
+		/* 46 */ YY_NO_ANCHOR,
+		/* 47 */ YY_NO_ANCHOR,
+		/* 48 */ YY_NO_ANCHOR,
+		/* 49 */ YY_NO_ANCHOR,
+		/* 50 */ YY_NO_ANCHOR,
+		/* 51 */ YY_NO_ANCHOR,
+		/* 52 */ YY_NO_ANCHOR,
+		/* 53 */ YY_NO_ANCHOR,
+		/* 54 */ YY_NO_ANCHOR,
+		/* 55 */ YY_NO_ANCHOR,
+		/* 56 */ YY_NO_ANCHOR,
+		/* 57 */ YY_NO_ANCHOR,
+		/* 58 */ YY_NO_ANCHOR,
+		/* 59 */ YY_NO_ANCHOR,
+		/* 60 */ YY_NO_ANCHOR,
+		/* 61 */ YY_NO_ANCHOR,
+		/* 62 */ YY_NO_ANCHOR,
+		/* 63 */ YY_NO_ANCHOR,
+		/* 64 */ YY_NO_ANCHOR,
+		/* 65 */ YY_NO_ANCHOR,
+		/* 66 */ YY_NO_ANCHOR,
+		/* 67 */ YY_NO_ANCHOR,
+		/* 68 */ YY_NO_ANCHOR,
+		/* 69 */ YY_NO_ANCHOR,
+		/* 70 */ YY_NO_ANCHOR,
+		/* 71 */ YY_NO_ANCHOR,
+		/* 72 */ YY_NO_ANCHOR,
+		/* 73 */ YY_NO_ANCHOR,
+		/* 74 */ YY_NO_ANCHOR,
+		/* 75 */ YY_NO_ANCHOR,
+		/* 76 */ YY_NO_ANCHOR,
+		/* 77 */ YY_NO_ANCHOR,
+		/* 78 */ YY_NO_ANCHOR,
+		/* 79 */ YY_NO_ANCHOR,
+		/* 80 */ YY_NO_ANCHOR,
+		/* 81 */ YY_NO_ANCHOR,
+		/* 82 */ YY_NO_ANCHOR,
+		/* 83 */ YY_NO_ANCHOR,
+		/* 84 */ YY_NO_ANCHOR,
+		/* 85 */ YY_NO_ANCHOR,
+		/* 86 */ YY_NO_ANCHOR,
+		/* 87 */ YY_NO_ANCHOR,
+		/* 88 */ YY_NO_ANCHOR,
+		/* 89 */ YY_NO_ANCHOR,
+		/* 90 */ YY_NO_ANCHOR,
+		/* 91 */ YY_NO_ANCHOR,
+		/* 92 */ YY_NO_ANCHOR,
+		/* 93 */ YY_NO_ANCHOR,
+		/* 94 */ YY_NO_ANCHOR,
+		/* 95 */ YY_NO_ANCHOR,
+		/* 96 */ YY_NO_ANCHOR,
+		/* 97 */ YY_NO_ANCHOR,
+		/* 98 */ YY_NO_ANCHOR,
+		/* 99 */ YY_NO_ANCHOR,
+		/* 100 */ YY_NO_ANCHOR,
+		/* 101 */ YY_NO_ANCHOR,
+		/* 102 */ YY_NO_ANCHOR,
+		/* 103 */ YY_NO_ANCHOR,
+		/* 104 */ YY_NO_ANCHOR,
+		/* 105 */ YY_NO_ANCHOR,
+		/* 106 */ YY_NO_ANCHOR,
+		/* 107 */ YY_NO_ANCHOR,
+		/* 108 */ YY_NO_ANCHOR,
+		/* 109 */ YY_NO_ANCHOR,
+		/* 110 */ YY_NO_ANCHOR,
+		/* 111 */ YY_NO_ANCHOR,
+		/* 112 */ YY_NO_ANCHOR,
+		/* 113 */ YY_NO_ANCHOR,
+		/* 114 */ YY_NO_ANCHOR,
+		/* 115 */ YY_NO_ANCHOR,
+		/* 116 */ YY_NO_ANCHOR,
+		/* 117 */ YY_NO_ANCHOR,
+		/* 118 */ YY_NO_ANCHOR,
+		/* 119 */ YY_NO_ANCHOR,
+		/* 120 */ YY_NO_ANCHOR,
+		/* 121 */ YY_NO_ANCHOR,
+		/* 122 */ YY_NO_ANCHOR,
+		/* 123 */ YY_NO_ANCHOR,
+		/* 124 */ YY_NO_ANCHOR,
+		/* 125 */ YY_NO_ANCHOR,
+		/* 126 */ YY_NO_ANCHOR,
+		/* 127 */ YY_NO_ANCHOR,
+		/* 128 */ YY_NO_ANCHOR,
+		/* 129 */ YY_NO_ANCHOR,
+		/* 130 */ YY_NO_ANCHOR,
+		/* 131 */ YY_NO_ANCHOR,
+		/* 132 */ YY_NO_ANCHOR,
+		/* 133 */ YY_NO_ANCHOR,
+		/* 134 */ YY_NO_ANCHOR,
+		/* 135 */ YY_NO_ANCHOR,
+		/* 136 */ YY_NO_ANCHOR,
+		/* 137 */ YY_NO_ANCHOR,
+		/* 138 */ YY_NO_ANCHOR,
+		/* 139 */ YY_NO_ANCHOR,
+		/* 140 */ YY_NO_ANCHOR,
+		/* 141 */ YY_NO_ANCHOR,
+		/* 142 */ YY_NO_ANCHOR,
+		/* 143 */ YY_NO_ANCHOR,
+		/* 144 */ YY_NO_ANCHOR,
+		/* 145 */ YY_NO_ANCHOR,
+		/* 146 */ YY_NO_ANCHOR,
+		/* 147 */ YY_NO_ANCHOR,
+		/* 148 */ YY_NO_ANCHOR,
+		/* 149 */ YY_NO_ANCHOR,
+		/* 150 */ YY_NO_ANCHOR,
+		/* 151 */ YY_NO_ANCHOR,
+		/* 152 */ YY_NO_ANCHOR,
+		/* 153 */ YY_NO_ANCHOR,
+		/* 154 */ YY_NO_ANCHOR
 	};
 	private int yy_cmap[] = unpackFromString(1,130,
 "17:10,27,17:2,31,17:22,28,25,17:10,29:10,17:33,23,1,24,17:3,7,10,11,6,5,15," +
 "19,17,3,17,21,4,20,13,12,22,30,17,8,2,9,17:2,14,17,26,16,17,18,17:2,0:2")[0];
 
-	private int yy_rmap[] = unpackFromString(1,154,
-"0,1,2,3,4,1,3:2,1,5,1:5,6,1:8,7,8,9,10,11,12,13,14,15,16,17,5,18,19,20,21,2" +
-"2,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,4" +
-"7,48,49,50,51,52,53,54,55,56,6,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71" +
-",72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96" +
-",97,98,99,7,8,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,1" +
-"15,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132")[0];
+	private int yy_rmap[] = unpackFromString(1,155,
+"0,1,2,3,4,1,3:2,5,6,7,5:5,8,5:8,9,10,7,11,12,13,14,15,16,8,17,18,19,20,21,2" +
+"2,23,24,9,10,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45" +
+",46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70" +
+",71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95" +
+",96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,11" +
+"5,116,117,118,119,120,121,122,123,124,125,126,127,128,129,5,130,131,132,133")[0];
 
-	private int yy_nxt[][] = unpackFromString(133,32,
-"1,2,3:14,27,3:8,4,3,5,6,7,3:2,-1:33,8,26,28,29,30,31,-1,32,33,34,-1:9,122,-" +
-"1:13,3:14,-1,3:8,-1,3,-1,3:4,-1,4:26,-1,4:3,-1:2,35:17,9,35:8,-1,35:3,-1:2," +
-"75:17,15,75:8,-1,75:3,-1:2,119:17,24,119:8,-1,119:3,-1:2,120:17,25,120:8,-1" +
-",120:3,-1:4,121,-1,36,-1:27,35:26,-1,35:3,-1:3,123,-1:36,37,-1:37,38,-1:25," +
-"39,-1:4,40,-1:24,126,-1:3,124,-1:30,145,-1:28,41,-1:40,125,-1:27,45,-1:27,4" +
-"6,-1:27,47,-1:40,48,-1:39,51,-1:33,127,-1:14,52,-1:47,10,-1:16,54,-1:42,55," +
-"-1:20,11,-1:35,56,-1:24,128,-1:51,57,-1:12,58,-1:33,12,-1:36,60,-1:25,61,-1" +
-":30,129,-1,62,63,-1:45,64,-1:18,65,-1:37,130,-1:20,66,-1:44,13,-1:32,67,-1:" +
-"45,68,-1:13,133,-1:24,69,-1:37,72,-1:23,74,-1:29,75:26,-1,75:3,-1:10,77,-1:" +
-"35,134,-1:31,14,-1:22,79,-1:48,135,-1:13,148,-1,80,81,-1:27,82,-1:49,83,-1:" +
-"18,84,-1:33,85,-1:27,16,-1:56,89,-1:13,136,-1:23,90,-1:30,91,-1:30,92,-1:49" +
-",137,-1:22,93,-1:39,149,-1:17,94,-1:35,95,-1:27,17,-1:52,97,-1:8,98,-1:32,1" +
-"38,-1:47,101,-1:18,102,-1:33,103,-1:27,104,-1:38,139,-1:32,140,-1:41,106,-1" +
-":11,107,-1:30,108,-1:49,109,-1:29,18,-1:21,141,-1:24,153:26,-1,153:3,-1:27," +
-"143,-1:8,112,-1:33,113,-1:44,19,-1:31,20,-1:25,144,-1:32,116,-1:34,142,-1:3" +
-"3,21,-1:15,118,-1:47,22,-1:31,23,-1:15,43,-1:36,42,-1:29,44,-1:36,151,-1:23" +
-",53,-1:40,49,-1:25,59,-1:29,131,-1:30,132,-1:45,73,-1:27,70,-1:24,76,-1:37," +
-"78,-1:22,86,-1:36,87,-1:35,96,-1:25,99,-1:33,105,-1:37,110,-1:20,111,-1:37," +
-"114,-1:24,119:26,-1,119:3,-1:6,115,-1:39,117,-1:23,50,-1:29,147,-1:30,71,-1" +
-":31,88,-1:34,100,-1:27,120:26,-1,120:3,-1:3,146,-1:30,153:15,150,153:7,152," +
-"153:2,-1,153:3,-1:2,153:23,152,153:2,-1,153:3,-1");
+	private int yy_nxt[][] = unpackFromString(134,32,
+"1,2,3:14,28,3:8,4,3,5,6,7,3:2,-1:33,8,9,61,131,147,62,150,151,152,153,150:9" +
+",154,150:6,-1,150:3,-1:3,3:14,-1,3:8,-1,3,-1,3:4,-1,4:26,-1,4:3,-1:2,150:26" +
+",-1,150:3,-1:2,150:2,63,150,64,150:21,-1,150:3,-1:2,27:17,10,27:8,-1,27:3,-" +
+"1:2,34:17,16,34:8,-1,34:3,-1:2,43:17,25,43:8,-1,43:3,-1:2,44:17,26,44:8,-1," +
+"44:3,-1:2,27:26,-1,27:3,-1:2,150:19,11,150:6,-1,150:3,-1:2,150:4,12,150:21," +
+"-1,150:3,-1:2,150:4,13,150:21,-1,150:3,-1:2,150:14,14,150:11,-1,150:3,-1:2," +
+"150:12,15,150:13,-1,150:3,-1:2,150:4,17,150:21,-1,150:3,-1:2,150:4,18,150:2" +
+"1,-1,150:3,-1:2,150:17,19,150:8,-1,150:3,-1:2,150:17,20,150:8,-1,150:3,-1:2" +
+",150:17,21,150:8,-1,150:3,-1:2,150:17,22,150:8,-1,150:3,-1:2,150:17,23,150:" +
+"8,-1,150:3,-1:2,150:17,24,150:8,-1,150:3,-1:2,150:4,29,150:21,-1,150:3,-1:2" +
+",150,30,150:24,-1,150:3,-1:2,150:3,31,150:22,-1,150:3,-1:2,150:9,32,150:16," +
+"-1,150:3,-1:2,150:11,33,150:14,-1,150:3,-1:2,34:26,-1,34:3,-1:2,150:3,35,15" +
+"0:22,-1,150:3,-1:2,150:3,36,150:22,-1,150:3,-1:2,150:4,37,150:21,-1,150:3,-" +
+"1:2,150:12,38,150:13,-1,150:3,-1:2,150,39,150:24,-1,150:3,-1:2,150:4,40,150" +
+":21,-1,150:3,-1:2,150:12,41,150:13,-1,150:3,-1:2,150,42,150:24,-1,150:3,-1:" +
+"2,43:26,-1,43:3,-1:2,44:26,-1,44:3,-1:2,150,45,150:24,-1,150:3,-1:2,150:6,4" +
+"6,150:4,67,150:14,-1,150:3,-1:2,150,47,150:24,-1,150:3,-1:2,150:13,71,150:1" +
+"2,-1,150:3,-1:2,150:9,134,150:16,-1,150:3,-1:2,150:5,72,150:20,-1,150:3,-1:" +
+"2,150:10,73,150:15,-1,150:3,-1:2,150:4,75,150:21,-1,150:3,-1:2,150:18,76,15" +
+"0:7,-1,150:3,-1:2,150:20,77,150:5,-1,150:3,-1:2,150,48,150:24,-1,150:3,-1:2" +
+",150:15,79,150:10,-1,150:3,-1:2,150:8,80,150:17,-1,150:3,-1:2,150,81,150:24" +
+",-1,150:3,-1:2,150:21,82,150:4,-1,150:3,-1:2,150:2,83,150:23,-1,150:3,-1:2," +
+"150:4,84,150:21,-1,150:3,-1:2,150:3,85,150:22,-1,150:3,-1:2,150:2,137,150,8" +
+"6,87,150:20,-1,150:3,-1:2,150:19,88,150:6,-1,150:3,-1:2,150:2,49,150:23,-1," +
+"150:3,-1:2,150:6,90,150:19,-1,150:3,-1:2,150:12,91,150:13,-1,150:3,-1:2,150" +
+",92,150:24,-1,150:3,-1:2,150:15,50,150:10,-1,150:3,-1:2,150:26,-1,150:2,93," +
+"-1:2,150:11,139,150:14,-1,150:3,-1:2,150:4,94,150:21,-1,150:3,-1:2,150,51,1" +
+"50:24,-1,150:3,-1:2,150:10,95,150:15,-1,150:3,-1:2,150:15,96,150:10,-1,150:" +
+"3,-1:2,150:2,97,150:23,-1,150:3,-1:2,150:8,99,150:17,-1,150:3,-1:2,150:12,1" +
+"01,150:13,-1,150:3,-1:2,150:20,140,150:5,-1,150:3,-1:2,150:2,141,150,102,10" +
+"3,150:20,-1,150:3,-1:2,150,52,150:24,-1,150:3,-1:2,150:19,104,150:6,-1,150:" +
+"3,-1:2,150:6,148,150:19,-1,150:3,-1:2,150:8,105,150:17,-1,150:3,-1:2,150,10" +
+"6,150:24,-1,150:3,-1:2,150:26,-1,150:2,109,-1:2,150:11,142,150:14,-1,150:3," +
+"-1:2,150:2,110,150:23,-1,150:3,-1:2,150:19,143,150:6,-1,150:3,-1:2,150:10,1" +
+"12,150:15,-1,150:3,-1:2,150:18,149,150:7,-1,150:3,-1:2,150:4,113,150:21,-1," +
+"150:3,-1:2,150:8,114,150:17,-1,150:3,-1:2,150:25,53,-1,150:3,-1:2,150:2,116" +
+",150:23,-1,150:3,-1:2,150:3,144,150:22,-1,150:3,-1:2,150:19,119,150:6,-1,15" +
+"0:3,-1:2,150:6,120,150:19,-1,150:3,-1:2,150:8,121,150:17,-1,150:3,-1:2,150:" +
+"11,54,150:14,-1,150:3,-1:2,150:12,55,150:13,-1,150:3,-1:2,150:22,123,150:3," +
+"-1,150:3,-1:2,150:2,124,150:23,-1,150:3,-1:2,150,125,150:24,-1,150:3,-1:2,1" +
+"50:19,126,150:6,-1,150:3,-1:2,150:7,145,150:18,-1,150:3,-1:2,146:26,-1,146:" +
+"3,-1:2,150:25,56,-1,150:3,-1:2,150:2,127,150:23,-1,150:3,-1:2,150:4,128,150" +
+":21,-1,150:3,-1:2,150:11,57,150:14,-1,150:3,-1:2,150:12,58,150:13,-1,150:3," +
+"-1:2,150:15,59,150:10,-1,150:3,-1:2,146:15,60,146:7,130,146:2,-1,146:3,-1:2" +
+",150:6,65,150:19,-1,150:3,-1:2,150:9,135,150:16,-1,150:3,-1:2,150:10,74,150" +
+":15,-1,150:3,-1:2,150:4,78,150:21,-1,150:3,-1:2,150,136,150:24,-1,150:3,-1:" +
+"2,150:2,89,150:23,-1,150:3,-1:2,150,138,150:24,-1,150:3,-1:2,150:4,98,150:2" +
+"1,-1,150:3,-1:2,150:10,100,150:15,-1,150:3,-1:2,150:6,107,150:19,-1,150:3,-" +
+"1:2,150,108,150:24,-1,150:3,-1:2,150:10,115,150:15,-1,150:3,-1:2,150:4,117," +
+"150:21,-1,150:3,-1:2,150:6,122,150:19,-1,150:3,-1:2,150:7,129,150:18,-1,150" +
+":3,-1:2,146:23,130,146:2,-1,146:3,-1:2,150:12,66,150:13,-1,150:3,-1:2,150,1" +
+"11,150:24,-1,150:3,-1:2,150:4,118,150:21,-1,150:3,-1:2,150:4,133,150:3,132," +
+"150:17,-1,150:3,-1:2,150:7,68,150:18,-1,150:3,-1:2,150:4,69,150:21,-1,150:3" +
+",-1:2,150:6,70,150:19,-1,150:3,-1");
 
 	public Token getToken ()
 		throws java.io.IOException {
@@ -505,43 +539,45 @@ class Yylex {
 					case -9:
 						break;
 					case 9:
-						{ return (new Token(Token.TEXT,yytext()));}
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
 					case -10:
 						break;
 					case 10:
-						{return (new Token(Token.ITEM,yytext()));}
+						{ return (new Token(Token.TEXT,yytext()));}
 					case -11:
 						break;
 					case 11:
-						{ return (new Token(Token.DATE,yytext()));}
+						{return (new Token(Token.ITEM,yytext()));}
 					case -12:
 						break;
 					case 12:
-						{ return (new Token(Token.TITLE,yytext()));}
+						{ return (new Token(Token.DATE,yytext()));}
 					case -13:
 						break;
 					case 13:
-						{ return (new Token(Token.BF,yytext()));}
+						{ return (new Token(Token.TITLE,yytext()));}
 					case -14:
 						break;
 					case 14:
-						{ return (new Token(Token.SECTION,yytext()));}
+						{ return (new Token(Token.BF,yytext()));}
 					case -15:
 						break;
 					case 15:
-						{ return (new Token(Token.LABEL,yytext()));}
+						{ return (new Token(Token.SECTION,yytext()));}
 					case -16:
 						break;
 					case 16:
-						{ return (new Token(Token.SUB_TITLE,yytext()));}
+						{ return (new Token(Token.LABEL,yytext()));}
 					case -17:
 						break;
 					case 17:
-						{ return (new Token(Token.MAKE,yytext()));}
+						{ return (new Token(Token.SUB_TITLE,yytext()));}
 					case -18:
 						break;
 					case 18:
-						{return (new Token(Token.END,yytext()));}
+						{ return (new Token(Token.MAKE,yytext()));}
 					case -19:
 						break;
 					case 19:
@@ -549,15 +585,15 @@ class Yylex {
 					case -20:
 						break;
 					case 20:
-						{ return (new Token(Token.END,yytext()));}
+						{return (new Token(Token.END,yytext()));}
 					case -21:
 						break;
 					case 21:
-						{return (new Token(Token.BEGIN,yytext()));}
+						{ return (new Token(Token.END,yytext()));}
 					case -22:
 						break;
 					case 22:
-						{ return (new Token(Token.BEGIN,yytext()));}
+						{return (new Token(Token.BEGIN,yytext()));}
 					case -23:
 						break;
 					case 23:
@@ -565,18 +601,778 @@ class Yylex {
 					case -24:
 						break;
 					case 24:
-						{ return (new Token(Token.DOC_CLASS,yytext()));}
+						{ return (new Token(Token.BEGIN,yytext()));}
 					case -25:
 						break;
 					case 25:
-						{ return (new Token(Token.PACKAGE,yytext()));}
+						{ return (new Token(Token.DOC_CLASS,yytext()));}
 					case -26:
 						break;
-					case 27:
+					case 26:
+						{ return (new Token(Token.PACKAGE,yytext()));}
+					case -27:
+						break;
+					case 28:
 						{
   return new Token(Token.ERROR, "Invalid input: " + yytext());
 }
-					case -27:
+					case -28:
+						break;
+					case 29:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -29:
+						break;
+					case 30:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -30:
+						break;
+					case 31:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -31:
+						break;
+					case 32:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -32:
+						break;
+					case 33:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -33:
+						break;
+					case 34:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -34:
+						break;
+					case 35:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -35:
+						break;
+					case 36:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -36:
+						break;
+					case 37:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -37:
+						break;
+					case 38:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -38:
+						break;
+					case 39:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -39:
+						break;
+					case 40:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -40:
+						break;
+					case 41:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -41:
+						break;
+					case 42:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -42:
+						break;
+					case 43:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -43:
+						break;
+					case 44:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -44:
+						break;
+					case 45:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -45:
+						break;
+					case 46:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -46:
+						break;
+					case 47:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -47:
+						break;
+					case 48:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -48:
+						break;
+					case 49:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -49:
+						break;
+					case 50:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -50:
+						break;
+					case 51:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -51:
+						break;
+					case 52:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -52:
+						break;
+					case 53:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -53:
+						break;
+					case 54:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -54:
+						break;
+					case 55:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -55:
+						break;
+					case 56:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -56:
+						break;
+					case 57:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -57:
+						break;
+					case 58:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -58:
+						break;
+					case 59:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -59:
+						break;
+					case 60:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -60:
+						break;
+					case 61:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -61:
+						break;
+					case 62:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -62:
+						break;
+					case 63:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -63:
+						break;
+					case 64:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -64:
+						break;
+					case 65:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -65:
+						break;
+					case 66:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -66:
+						break;
+					case 67:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -67:
+						break;
+					case 68:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -68:
+						break;
+					case 69:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -69:
+						break;
+					case 70:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -70:
+						break;
+					case 71:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -71:
+						break;
+					case 72:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -72:
+						break;
+					case 73:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -73:
+						break;
+					case 74:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -74:
+						break;
+					case 75:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -75:
+						break;
+					case 76:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -76:
+						break;
+					case 77:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -77:
+						break;
+					case 78:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -78:
+						break;
+					case 79:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -79:
+						break;
+					case 80:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -80:
+						break;
+					case 81:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -81:
+						break;
+					case 82:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -82:
+						break;
+					case 83:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -83:
+						break;
+					case 84:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -84:
+						break;
+					case 85:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -85:
+						break;
+					case 86:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -86:
+						break;
+					case 87:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -87:
+						break;
+					case 88:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -88:
+						break;
+					case 89:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -89:
+						break;
+					case 90:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -90:
+						break;
+					case 91:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -91:
+						break;
+					case 92:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -92:
+						break;
+					case 93:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -93:
+						break;
+					case 94:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -94:
+						break;
+					case 95:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -95:
+						break;
+					case 96:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -96:
+						break;
+					case 97:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -97:
+						break;
+					case 98:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -98:
+						break;
+					case 99:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -99:
+						break;
+					case 100:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -100:
+						break;
+					case 101:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -101:
+						break;
+					case 102:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -102:
+						break;
+					case 103:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -103:
+						break;
+					case 104:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -104:
+						break;
+					case 105:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -105:
+						break;
+					case 106:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -106:
+						break;
+					case 107:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -107:
+						break;
+					case 108:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -108:
+						break;
+					case 109:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -109:
+						break;
+					case 110:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -110:
+						break;
+					case 111:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -111:
+						break;
+					case 112:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -112:
+						break;
+					case 113:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -113:
+						break;
+					case 114:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -114:
+						break;
+					case 115:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -115:
+						break;
+					case 116:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -116:
+						break;
+					case 117:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -117:
+						break;
+					case 118:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -118:
+						break;
+					case 119:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -119:
+						break;
+					case 120:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -120:
+						break;
+					case 121:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -121:
+						break;
+					case 122:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -122:
+						break;
+					case 123:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -123:
+						break;
+					case 124:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -124:
+						break;
+					case 125:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -125:
+						break;
+					case 126:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -126:
+						break;
+					case 127:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -127:
+						break;
+					case 128:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -128:
+						break;
+					case 129:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -129:
+						break;
+					case 130:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -130:
+						break;
+					case 131:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -131:
+						break;
+					case 132:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -132:
+						break;
+					case 133:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -133:
+						break;
+					case 134:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -134:
+						break;
+					case 135:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -135:
+						break;
+					case 136:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -136:
+						break;
+					case 137:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -137:
+						break;
+					case 138:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -138:
+						break;
+					case 139:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -139:
+						break;
+					case 140:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -140:
+						break;
+					case 141:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -141:
+						break;
+					case 142:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -142:
+						break;
+					case 143:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -143:
+						break;
+					case 144:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -144:
+						break;
+					case 145:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -145:
+						break;
+					case 146:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -146:
+						break;
+					case 147:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -147:
+						break;
+					case 148:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -148:
+						break;
+					case 149:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -149:
+						break;
+					case 150:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -150:
+						break;
+					case 151:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -151:
+						break;
+					case 152:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -152:
+						break;
+					case 153:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -153:
+						break;
+					case 154:
+						{
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
+					case -154:
 						break;
 					default:
 						yy_error(YY_E_INTERNAL,false);

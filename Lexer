@@ -71,6 +71,7 @@ NUMBER=([0123456789])
 BEGINEQU=(\\begin\{equation\})
 ENDEQU=(\\end\{equation\})
 LABEL=(\\label\{(.)+\})
+ERRORLINE=(\\(.)+)
 BODY=[^\{\n%\\]+
 
 
@@ -98,6 +99,9 @@ BODY=[^\{\n%\\]+
 <YYINITIAL> {LABEL} { return (new Token(Token.LABEL,yytext()));}
 <YYINITIAL> {ENDEQU} {return (new Token(Token.END,yytext()));}
 <YYINITIAL> {BODY} { return (new Token(Token.BODY,yytext()));}
+<YYINITIAL> {ERRORLINE} {
+  return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
+}
 <YYINITIAL> . {
   return new Token(Token.ERROR, "Invalid input: " + yytext());
 }
