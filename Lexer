@@ -67,12 +67,13 @@ BEGINITEMIZE=(\\begin\{itemize\})
 ONEITEM=(\\item)
 ENDITEMIZE=(\\end\{itemize\})
 MATH=(\$)
-NUMBER=([0123456789])
+NUMBER=([0123456789]*)
+VARIABLE=([a-z])
 BEGINEQU=(\\begin\{equation\})
 ENDEQU=(\\end\{equation\})
 LABEL=(\\label\{(.)+\})
-ERRORLINE=(\\(.)+)
-BODY=[^\{\n%\\]+
+ERRORLINE=(\\errorcoming)
+BODY=[^\{\n%\\$]+
 
 
 %%
@@ -95,6 +96,7 @@ BODY=[^\{\n%\\]+
 <YYINITIAL> \n {}
 <YYINITIAL> {MATH} {return (new Token(Token.MATHMODE,yytext()));}
 <YYINITIAL> {NUMBER} {return (new Token(Token.NM,yytext()));}
+<YYINITIAL> {VARIABLE} {return (new Token(Token.VAR,yytext()));}
 <YYINITIAL> {BEGINEQU} { return (new Token(Token.BEGIN,yytext()));}
 <YYINITIAL> {LABEL} { return (new Token(Token.LABEL,yytext()));}
 <YYINITIAL> {ENDEQU} {return (new Token(Token.END,yytext()));}
