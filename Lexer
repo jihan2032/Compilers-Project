@@ -2,7 +2,6 @@ import java.lang.System;
 import java.io.*;
 
 class Lexer {
-
 	Yylex tokenizer;
 	public  Lexer(String fileName)
 	{
@@ -40,12 +39,12 @@ class Lexer {
 
 
 %{
+	int mathmode = 0;
 	//initialize  variables to be used by class
 %}
 
 
 %init{
-
 //Add code to be executed on initialization of the lexer
 
 %init}
@@ -67,12 +66,14 @@ BEGINITEMIZE=(\\begin\{itemize\})
 ONEITEM=(\\item)
 ENDITEMIZE=(\\end\{itemize\})
 MATH=(\$)
-NUMBER=([0123456789]*)
+NUMBER=([0-9])
 VARIABLE=([a-z])
+OPERATOR=([+-*/=^])
 BEGINEQU=(\\begin\{equation\})
 ENDEQU=(\\end\{equation\})
 LABEL=(\\label\{(.)+\})
 ERRORLINE=(\\errorcoming)
+FUNCTION=(f)
 BODY=[^\{\n%\\$]+
 
 
@@ -94,13 +95,15 @@ BODY=[^\{\n%\\$]+
 <YYINITIAL> {ONEITEM} {return (new Token(Token.ITEM,yytext()));}
 <YYINITIAL> {ENDITEMIZE} {return (new Token(Token.END,yytext()));}
 <YYINITIAL> \n {}
-<YYINITIAL> {MATH} {return (new Token(Token.MATHMODE,yytext()));}
-<YYINITIAL> {NUMBER} {return (new Token(Token.NM,yytext()));}
+<YYINITIAL> {MATH} { mathmode++; if(mathmode % 2 == 1) { return (new Token(Token.MATHMODE,yytext()));}}
+<YYINITIAL> {NUMBER} { return (new Token(Token.NM,yytext()));}
 <YYINITIAL> {VARIABLE} {return (new Token(Token.VAR,yytext()));}
+<YYINITIAL> {OPERATOR} {return (new Token(Token.OPERATOR,yytext()));}
 <YYINITIAL> {BEGINEQU} { return (new Token(Token.BEGIN,yytext()));}
 <YYINITIAL> {LABEL} { return (new Token(Token.LABEL,yytext()));}
 <YYINITIAL> {ENDEQU} {return (new Token(Token.END,yytext()));}
-<YYINITIAL> {BODY} { return (new Token(Token.BODY,yytext()));}
+<YYINITIAL> {FUNCTION} {return (new Token(Token.FUNC,yytext()));}
+<YYINITIAL> {BODY} { if (mathmode % 2 == 0) {return (new Token(Token.BODY,yytext()));}}
 <YYINITIAL> {ERRORLINE} {
   return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
 }
