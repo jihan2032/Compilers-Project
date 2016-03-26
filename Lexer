@@ -40,6 +40,8 @@ class Lexer {
 
 %{
 	int mathmode = 0;
+	int equmode = 0;
+	int no_of_items = 0;
 	//initialize  variables to be used by class
 %}
 
@@ -92,18 +94,32 @@ BODY=[^\{\n%\\$]+
 <YYINITIAL> {COMMENT} {}
 <YYINITIAL> {NEWLINE} {return (new Token(Token.NEWLINE,yytext()));}
 <YYINITIAL> {BEGINITEMIZE} {return (new Token(Token.BEGIN,yytext()));}
-<YYINITIAL> {ONEITEM} {return (new Token(Token.ITEM,yytext()));}
-<YYINITIAL> {ENDITEMIZE} {return (new Token(Token.END,yytext()));}
+<YYINITIAL> {ONEITEM} {no_of_items++; return (new Token(Token.ITEM,yytext()));}
+<YYINITIAL> {ENDITEMIZE} { if(no_of_items > 0)
+													 {return (new Token(Token.END,yytext()));}
+													else {
+														return new Token(Token.ERROR, "Line: "+yyline + " Item list with missing item");
+													}
+
+												  }
 <YYINITIAL> \n {}
 <YYINITIAL> {MATH} { mathmode++; if(mathmode % 2 == 1) { return (new Token(Token.MATHMODE,yytext()));}}
 <YYINITIAL> {NUMBER} { return (new Token(Token.NM,yytext()));}
 <YYINITIAL> {VARIABLE} {return (new Token(Token.VAR,yytext()));}
 <YYINITIAL> {OPERATOR} {return (new Token(Token.OPERATOR,yytext()));}
-<YYINITIAL> {BEGINEQU} { return (new Token(Token.BEGIN,yytext()));}
+<YYINITIAL> {BEGINEQU} { equmode++; {return (new Token(Token.BEGIN,yytext()));}}
 <YYINITIAL> {LABEL} { return (new Token(Token.LABEL,yytext()));}
-<YYINITIAL> {ENDEQU} {return (new Token(Token.END,yytext()));}
+<YYINITIAL> {ENDEQU} { equmode++; return (new Token(Token.END,yytext()));}
 <YYINITIAL> {FUNCTION} {return (new Token(Token.FUNC,yytext()));}
-<YYINITIAL> {BODY} { if (mathmode % 2 == 0) {return (new Token(Token.BODY,yytext()));}}
+<YYINITIAL> {BODY} {
+  if (mathmode % 2 == 0 && equmode % 2 == 0) {
+    return new Token(Token.BODY,yytext());
+  } else if (mathmode%2 == 1) {
+    return new Token(Token.VAR, yytext());
+  } else if (equmode%2 == 1) {
+    return new Token(Token.FUNC, yytext());
+  }
+}
 <YYINITIAL> {ERRORLINE} {
   return new Token(Token.ERROR, "Line: " + yyline + " Undefined control sequence: " + yytext());
 }
