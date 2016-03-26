@@ -53,33 +53,51 @@ class Lexer {
 START=(\\documentclass\{(.)+\})
 PACKAGE=(\\usepackage\[(.)+\]\{(.)+\})
 COMMENT=(%(.)*)
-NEWLINE=[\n]
-BEGINDOCUMENT=(\\begin\{document\})
+NEWLINE=([\\][\\])
 TITLE=(\\title)
-TEXT=(\{(.)+\})
-SUBTITLE=(\\subtitle)
 DATE=(\\date)
-MAKETITLE=(\\maketitle)
+SUBTITLE=(\\subtitle)
 SECTION=(\\section)
-BODY=([^\\\n\{\}]*)
 TEXTBF=(\\textbf)
-ENDDOCUMENT=(\\end\{document\})
+TEXT=(\{(.)+\})
+BEGIN=(\\begin\{document\})
+END=(\\end\{document\})
+MAKE=(\\maketitle)
+BEGINITEMIZE=(\\begin\{itemize\})
+ONEITEM=(\\item)
+ENDITEMIZE=(\\end\{itemize\})
+MATH=(\$)
+NUMBER=([0123456789])
+BEGINEQU=(\\begin\{equation\})
+ENDEQU=(\\end\{equation\})
+LABEL=(\\label\{(.)+\})
+BODY=[^\{\n%\\]+
+
 
 %%
+<YYINITIAL> {TITLE} { return (new Token(Token.TITLE,yytext()));}
+<YYINITIAL> {DATE} { return (new Token(Token.DATE,yytext()));}
+<YYINITIAL> {SUBTITLE} { return (new Token(Token.SUB_TITLE,yytext()));}
+<YYINITIAL> {SECTION} { return (new Token(Token.SECTION,yytext()));}
+<YYINITIAL> {TEXTBF} { return (new Token(Token.BF,yytext()));}
+<YYINITIAL> {TEXT} { return (new Token(Token.TEXT,yytext()));}
+<YYINITIAL> {BEGIN} { return (new Token(Token.BEGIN,yytext()));}
+<YYINITIAL> {END} { return (new Token(Token.END,yytext()));}
+<YYINITIAL> {MAKE} { return (new Token(Token.MAKE,yytext()));}
 <YYINITIAL> {START} { return (new Token(Token.DOC_CLASS,yytext()));}
 <YYINITIAL> {PACKAGE} { return (new Token(Token.PACKAGE,yytext()));}
 <YYINITIAL> {COMMENT} {}
 <YYINITIAL> {NEWLINE} {return (new Token(Token.NEWLINE,yytext()));}
-<YYINITIAL> {BEGINDOCUMENT} {return (new Token(Token.BEGIN,yytext()));}
-<YYINITIAL> {TITLE} {return (new Token(Token.TITLE,yytext()));}
-<YYINITIAL> {TEXT} {return (new Token(Token.TEXT,yytext()));}
-<YYINITIAL> {SUBTITLE} {return (new Token(Token.SUB_TITLE,yytext()));}
-<YYINITIAL> {DATE} {return (new Token(Token.DATE,yytext()));}
-<YYINITIAL> {MAKETITLE} {return (new Token(Token.MAKE,yytext()));}
-<YYINITIAL> {SECTION} {return (new Token(Token.SECTION,yytext()));}
-<YYINITIAL> {TEXTBF} {return (new Token(Token.BF,yytext()));}
-<YYINITIAL> {ENDDOCUMENT} {return (new Token(Token.END,yytext()));}
-<YYINITIAL> {BODY} {return (new Token(Token.BODY,yytext()));}
+<YYINITIAL> {BEGINITEMIZE} {return (new Token(Token.BEGIN,yytext()));}
+<YYINITIAL> {ONEITEM} {return (new Token(Token.ITEM,yytext()));}
+<YYINITIAL> {ENDITEMIZE} {return (new Token(Token.END,yytext()));}
+<YYINITIAL> \n {}
+<YYINITIAL> {MATH} {return (new Token(Token.MATHMODE,yytext()));}
+<YYINITIAL> {NUMBER} {return (new Token(Token.NM,yytext()));}
+<YYINITIAL> {BEGINEQU} { return (new Token(Token.BEGIN,yytext()));}
+<YYINITIAL> {LABEL} { return (new Token(Token.LABEL,yytext()));}
+<YYINITIAL> {ENDEQU} {return (new Token(Token.END,yytext()));}
+<YYINITIAL> {BODY} { return (new Token(Token.BODY,yytext()));}
 <YYINITIAL> . {
   return new Token(Token.ERROR, "Invalid input: " + yytext());
 }

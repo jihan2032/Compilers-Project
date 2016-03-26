@@ -1,0 +1,35 @@
+DOCUMENT CLASS : \documentclass{article}
+PACKAGE : \usepackage[utf8]{inputenc}
+BEGIN : \begin{document}
+TITLE : \title
+TEXT : First Template
+DATE: \date
+TEXT : March 2016
+MAKE TITLE : \maketitle
+SECTION : \section
+TEXT : Item List
+BODY : In this template you have an itemized list that you have to generate the tokens for using the lexical analyzer implemented in this milestone. 
+NEWLINE
+BEGIN : \begin{itemize}
+ITEM: \item
+BODY :  item 1
+ITEM: \item
+BODY :  item 2
+ITEM: \item
+BODY :  item 3
+END : \end{itemize}
+SECTION : \section
+TEXT : Math Mode
+BODY : In this section you have the math mode of latex presented using the dollar sign. In this mode you can present any form of mathematical expression. However, for the scope of the the project we only restricted it to numbers, variables(might be character, or a character followed by a number as shown below), operators(+,-,*,/,=,^) and functions. 
+NEWLINE
+BODY : $5$
+NEWLINE
+BODY : $3x$
+NEWLINE
+BODY : $5+z$
+NEWLINE
+BODY : $f_1$
+SECTION : \section
+TEXT : New Line
+BODY : The new Line in latex in expressed using double backslash, which will be also be the case in the project as well. So you might need to change your previous lexer a bit to adapt to this.
+END : \end{document}
