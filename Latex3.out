@@ -1,0 +1,50 @@
+DOCUMENT CLASS : \documentclass{article}
+PACKAGE : \usepackage[utf8]{inputenc}
+BEGIN : \begin{document}
+TITLE : \title
+TEXT : Third Template
+DATE: \date
+TEXT : March 2016
+MAKE TITLE : \maketitle
+SECTION : \section
+TEXT : Item List and Equations
+BODY : In the item list the body of the item list is either a plain text or a text displayed in math mode. 
+NEWLINE
+NEWLINE
+BEGIN : \begin{itemize}
+ITEM: \item
+BODY : item 1 
+ITEM: \item
+MATHMODE
+NM: 1
+OPERATOR: +
+NM: 3
+BODY : 
+ITEM: \item
+MATHMODE
+NM: 2
+BODY : item 
+ITEM: \item
+BODY : item 3 
+ITEM: \item
+BODY : item 4 
+END : \end{itemize}
+SECTION : \section
+TEXT : Missing Item List
+BODY : In latex an item list can not be empty. If so a compilation error will occur stating the problem. Similar to template 
+MATHMODE
+NM: 2
+BODY : the
+BODY : line
+BODY : number
+BODY : should
+BODY : appear
+BODY : in
+BODY : the
+BODY : error
+BODY : message
+BODY : as
+BODY : well
+BEGIN : \begin{itemize}
+ERROR Line: 29 Item list with missing \item
+END : \end{document}

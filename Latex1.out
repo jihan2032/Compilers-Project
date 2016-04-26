@@ -12,23 +12,30 @@ BODY : In this template you have an itemized list that you have to generate the 
 NEWLINE
 BEGIN : \begin{itemize}
 ITEM: \item
-BODY :  item 1
+BODY : item 1 
 ITEM: \item
-BODY :  item 2
+BODY : item 2 
 ITEM: \item
-BODY :  item 3
+BODY : item 3 
 END : \end{itemize}
 SECTION : \section
 TEXT : Math Mode
 BODY : In this section you have the math mode of latex presented using the dollar sign. In this mode you can present any form of mathematical expression. However, for the scope of the the project we only restricted it to numbers, variables(might be character, or a character followed by a number as shown below), operators(+,-,*,/,=,^) and functions. 
 NEWLINE
-BODY : $5$
+MATHMODE
+NM: 5
 NEWLINE
-BODY : $3x$
+MATHMODE
+NM: 3
+VAR: x
 NEWLINE
-BODY : $5+z$
+MATHMODE
+NM: 5
+OPERATOR: +
+VAR: z
 NEWLINE
-BODY : $f_1$
+MATHMODE
+VAR: f_1
 SECTION : \section
 TEXT : New Line
 BODY : The new Line in latex in expressed using double backslash, which will be also be the case in the project as well. So you might need to change your previous lexer a bit to adapt to this.

@@ -1,23 +1,43 @@
 DOCUMENT CLASS : \documentclass{article}
 PACKAGE : \usepackage[utf8]{inputenc}
 BEGIN : \begin{document}
-ERROR Line: 6 Undefined control sequence: \title{Second Template}
-ERROR Line: 7 Undefined control sequence: \date{March 2016}
+TITLE : \title
+TEXT : Second Template
+DATE: \date
+TEXT : March 2016
 MAKE TITLE : \maketitle
-ERROR Line: 11 Undefined control sequence: \section{Equation}
+SECTION : \section
+TEXT : Equation
 BODY : In this template you have the equation environment in latex. It is an alternative for the math mode but with a larger scope. Moreover, in the equation mode we have the label command that adds a label for each equation that you can later use to reference an equation. 
 NEWLINE
 NEWLINE
 BEGIN : \begin{equation}
 LABEL: \label{eq1}
-BODY : 2x-5y=8
+NM: 2
+VAR: x
+NM: 5
+VAR: y
+OPERATOR: =
+NM: 8
 END : \end{equation}
 NEWLINE
 BEGIN : \begin{equation}
 LABEL: \label{eq2}
-BODY : f(x)=x^2
+FUNC: f(x)=x^
+NM: 2
 END : \end{equation}
-ERROR Line: 27 Undefined control sequence: \section{Errors}
+SECTION : \section
+TEXT : Errors
 BODY : In latex you cant have a backslash within a text, otherwise, it will cause an error as undefined control sequence. In this milestone you have to include the 
-ERROR Line: 28 Undefined control sequence: \textbf{line number} that caused the error in the error message. \errorcoming
+TEXTBF : \textbf
+TEXT : line number
+BODY : that
+BODY : caused
+BODY : the
+BODY : error
+BODY : in
+BODY : the
+BODY : error
+BODY : message
+ERROR Line: 28 Undefined control sequence: \errorcoming
 END : \end{document}
